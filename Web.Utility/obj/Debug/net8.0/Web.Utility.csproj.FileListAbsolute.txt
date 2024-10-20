@@ -1,0 +1,14 @@
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.Utility\bin\Debug\net8.0\Web.Utility.deps.json
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.Utility\bin\Debug\net8.0\Web.Utility.dll
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.Utility\bin\Debug\net8.0\Web.Utility.pdb
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.Utility\obj\Debug\net8.0\Web.Utility.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.Utility\obj\Debug\net8.0\Web.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.Utility\obj\Debug\net8.0\Web.Utility.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.Utility\obj\Debug\net8.0\Web.Utility.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.Utility\obj\Debug\net8.0\Web.Utility.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.Utility\obj\Debug\net8.0\Web.Utility.dll
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.Utility\obj\Debug\net8.0\refint\Web.Utility.dll
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.Utility\obj\Debug\net8.0\Web.Utility.pdb
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.Utility\obj\Debug\net8.0\ref\Web.Utility.dll
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.Utility\bin\Debug\net8.0\Web.Utility.runtimeconfig.json
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.Utility\obj\Debug\net8.0\Web.Utility.genruntimeconfig.cache

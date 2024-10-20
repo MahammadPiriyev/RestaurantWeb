@@ -1,0 +1,27 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdminPage.cshtml";
+}
+@model List<Category>
+<div class="container mt-5" style="display: grid; align-items: center; gap: 40px;">
+    <a asp-area="Admin" asp-controller="Category" asp-action="Create" class="btn btn-success">Create Category</a>
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var obj in Model)
+            {
+                <tr>
+                    <th scope="row">@obj.Id</th>
+                    <td>@obj.Name</td>
+                    <td><a asp-controller="Category" asp-action="Edit" asp-route-id="@obj.Id" class="btn btn-warning"><i class="bi bi-pencil-square"></i> Edit</a></td>
+                    <td><a asp-controller="Category" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-danger"><i class="bi bi-trash3-fill"></i> Delete</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

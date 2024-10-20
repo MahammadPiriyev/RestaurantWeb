@@ -1,0 +1,17 @@
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\obj\Debug\net8.0\Web.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\obj\Debug\net8.0\Web.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\obj\Debug\net8.0\Web.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\obj\Debug\net8.0\Web.DataAccess.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\obj\Debug\net8.0\Web.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\bin\Debug\net8.0\Web.DataAccess.deps.json
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\bin\Debug\net8.0\Web.DataAccess.dll
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\bin\Debug\net8.0\Web.DataAccess.pdb
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\bin\Debug\net8.0\Web.Models.dll
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\bin\Debug\net8.0\Web.Models.pdb
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\obj\Debug\net8.0\Web.Data.9D45AC3A.Up2Date
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\obj\Debug\net8.0\Web.DataAccess.dll
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\obj\Debug\net8.0\refint\Web.DataAccess.dll
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\obj\Debug\net8.0\Web.DataAccess.pdb
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\obj\Debug\net8.0\ref\Web.DataAccess.dll
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\bin\Debug\net8.0\Web.DataAccess.runtimeconfig.json
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\obj\Debug\net8.0\Web.DataAccess.genruntimeconfig.cache
