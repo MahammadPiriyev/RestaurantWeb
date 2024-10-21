@@ -176,12 +176,10 @@ namespace RestaurantWeb.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderKey")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
@@ -218,12 +216,10 @@ namespace RestaurantWeb.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Value")
                         .HasColumnType("nvarchar(max)");
@@ -233,7 +229,7 @@ namespace RestaurantWeb.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("RestaurantWeb.Models.Category", b =>
+            modelBuilder.Entity("RestaurantWeb.Web.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -250,7 +246,7 @@ namespace RestaurantWeb.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("RestaurantWeb.Models.Product", b =>
+            modelBuilder.Entity("RestaurantWeb.Web.Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -283,7 +279,7 @@ namespace RestaurantWeb.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("RestaurantWeb.Models.ApplicationUser", b =>
+            modelBuilder.Entity("RestaurantWeb.Web.Models.ApplicationUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
@@ -361,15 +357,20 @@ namespace RestaurantWeb.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("RestaurantWeb.Models.Product", b =>
+            modelBuilder.Entity("RestaurantWeb.Web.Models.Product", b =>
                 {
-                    b.HasOne("RestaurantWeb.Models.Category", "Category")
-                        .WithMany()
+                    b.HasOne("RestaurantWeb.Web.Models.Category", "Category")
+                        .WithMany("ProductList")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("RestaurantWeb.Web.Models.Category", b =>
+                {
+                    b.Navigation("ProductList");
                 });
 #pragma warning restore 612, 618
         }

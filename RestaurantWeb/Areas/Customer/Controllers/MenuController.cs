@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RestaurantWeb.DataAccess.Data;
 using RestaurantWeb.Web.Models;
+using Web.Models;
 
 namespace RestaurantWeb.Areas.Customer.Controllers
 {
@@ -14,8 +15,13 @@ namespace RestaurantWeb.Areas.Customer.Controllers
         }
         public IActionResult Index()
         {
-            List<Product> productList = _db.Products.ToList();
-            return View(productList);
+            var viewModel = new MenuViewModel
+            {
+                Categories = _db.Categories.ToList(),
+                Products = _db.Products.ToList()
+            };
+
+            return View(viewModel);
         }
     }
 }

@@ -15,3 +15,4 @@ C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\obj\Debug\net8.0\Web.Dat
 C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\obj\Debug\net8.0\ref\Web.DataAccess.dll
 C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\bin\Debug\net8.0\Web.DataAccess.runtimeconfig.json
 C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\obj\Debug\net8.0\Web.DataAccess.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\RestaurantWeb\Web.DataAccess\obj\Debug\net8.0\Web.DataAccess.sourcelink.json
