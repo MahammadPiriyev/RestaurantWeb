@@ -8,7 +8,7 @@ using RestaurantWeb.DataAccess.Data;
 
 #nullable disable
 
-namespace RestaurantWeb.Migrations
+namespace Web.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -360,7 +360,7 @@ namespace RestaurantWeb.Migrations
             modelBuilder.Entity("RestaurantWeb.Web.Models.Product", b =>
                 {
                     b.HasOne("RestaurantWeb.Web.Models.Category", "Category")
-                        .WithMany("ProductList")
+                        .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -370,7 +370,7 @@ namespace RestaurantWeb.Migrations
 
             modelBuilder.Entity("RestaurantWeb.Web.Models.Category", b =>
                 {
-                    b.Navigation("ProductList");
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

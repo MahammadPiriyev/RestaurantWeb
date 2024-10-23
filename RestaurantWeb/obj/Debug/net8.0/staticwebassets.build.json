@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0ofjnKxrlndG9Cb9g9ZhUbCVy29pVU7iazqIkfikoY8=",
+  "Hash": "30zuvnWiwX8fJpzjgMZVlgK1Kv80iM4DlpvnxzjYTMU=",
   "Source": "RestaurantWeb",
   "BasePath": "_content/RestaurantWeb",
   "Mode": "Default",
@@ -1214,6 +1214,25 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\RestaurantWeb\\RestaurantWeb\\wwwroot\\css\\StyleSheet.css",
+      "SourceId": "RestaurantWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\RestaurantWeb\\RestaurantWeb\\wwwroot\\",
+      "BasePath": "_content/RestaurantWeb",
+      "RelativePath": "css/StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
+    },
+    {
       "Identity": "C:\\Users\\ASUS\\source\\repos\\RestaurantWeb\\RestaurantWeb\\wwwroot\\favicon.ico",
       "SourceId": "RestaurantWeb",
       "SourceType": "Discovered",
@@ -1307,6 +1326,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\3151bbf9-e74c-4bec-addd-3f34a5460b41.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\source\\repos\\RestaurantWeb\\RestaurantWeb\\wwwroot\\images\\product\\32cb38db-565a-495a-835a-83428e30d89a.jpg",
+      "SourceId": "RestaurantWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\RestaurantWeb\\RestaurantWeb\\wwwroot\\",
+      "BasePath": "_content/RestaurantWeb",
+      "RelativePath": "images/product/32cb38db-565a-495a-835a-83428e30d89a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\32cb38db-565a-495a-835a-83428e30d89a.jpg"
     },
     {
       "Identity": "C:\\Users\\ASUS\\source\\repos\\RestaurantWeb\\RestaurantWeb\\wwwroot\\images\\product\\4fb41bc4-4b7f-4818-a091-695908d2de80.jpg",

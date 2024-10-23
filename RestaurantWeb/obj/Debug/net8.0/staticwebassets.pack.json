@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\RestaurantWeb.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\RestaurantWeb\\RestaurantWeb\\wwwroot\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\source\\repos\\RestaurantWeb\\RestaurantWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -27,6 +31,10 @@
     {
       "Id": "C:\\Users\\ASUS\\source\\repos\\RestaurantWeb\\RestaurantWeb\\wwwroot\\images\\product\\3151bbf9-e74c-4bec-addd-3f34a5460b41.jpeg",
       "PackagePath": "staticwebassets\\images\\product\\3151bbf9-e74c-4bec-addd-3f34a5460b41.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\RestaurantWeb\\RestaurantWeb\\wwwroot\\images\\product\\32cb38db-565a-495a-835a-83428e30d89a.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\32cb38db-565a-495a-835a-83428e30d89a.jpg"
     },
     {
       "Id": "C:\\Users\\ASUS\\source\\repos\\RestaurantWeb\\RestaurantWeb\\wwwroot\\images\\product\\4fb41bc4-4b7f-4818-a091-695908d2de80.jpg",

@@ -9,11 +9,11 @@ using RestaurantWeb.DataAccess.Data;
 
 #nullable disable
 
-namespace RestaurantWeb.Migrations
+namespace Web.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241018105739_AddApplicationUserTable")]
-    partial class AddApplicationUserTable
+    [Migration("20241023180150_AddApplicationUserToDb")]
+    partial class AddApplicationUserToDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -179,12 +179,10 @@ namespace RestaurantWeb.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderKey")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
@@ -221,12 +219,10 @@ namespace RestaurantWeb.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Value")
                         .HasColumnType("nvarchar(max)");
@@ -236,7 +232,7 @@ namespace RestaurantWeb.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("RestaurantWeb.Models.Category", b =>
+            modelBuilder.Entity("RestaurantWeb.Web.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -253,7 +249,7 @@ namespace RestaurantWeb.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("RestaurantWeb.Models.Product", b =>
+            modelBuilder.Entity("RestaurantWeb.Web.Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -286,7 +282,7 @@ namespace RestaurantWeb.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("RestaurantWeb.Models.ApplicationUser", b =>
+            modelBuilder.Entity("RestaurantWeb.Web.Models.ApplicationUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
@@ -364,15 +360,20 @@ namespace RestaurantWeb.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("RestaurantWeb.Models.Product", b =>
+            modelBuilder.Entity("RestaurantWeb.Web.Models.Product", b =>
                 {
-                    b.HasOne("RestaurantWeb.Models.Category", "Category")
-                        .WithMany()
+                    b.HasOne("RestaurantWeb.Web.Models.Category", "Category")
+                        .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("RestaurantWeb.Web.Models.Category", b =>
+                {
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

@@ -2,10 +2,10 @@
 
 #nullable disable
 
-namespace RestaurantWeb.Migrations
+namespace Web.DataAccess.Migrations
 {
     /// <inheritdoc />
-    public partial class AddApplicationUserTable : Migration
+    public partial class AddApplicationUserToDb : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
